@@ -1,0 +1,113 @@
+{
+  "records": 41949,
+  "vulnerable": 2433,
+  "non_vulnerable": 39516,
+  "malformed_record": 0,
+  "semantic_usable": 41949,
+  "structural_usable": 41949,
+  "empty_model_code": 0,
+  "missing_required_field": 0,
+  "cwe_numeric": 37197,
+  "cwe_other": 4752,
+  "cwe_malformed": 0,
+  "cwe_missing": 0,
+  "invalid_cwe": 0,
+  "missing_graph": 0,
+  "invalid_graph_json": 0,
+  "graph_parse_errors": 0,
+  "vulnerable_without_diff_info": 0,
+  "has_diff_info": 2433,
+  "code_length": {
+    "minimum": 13,
+    "maximum": 39468,
+    "mean": 603.1477270018355
+  },
+  "line_count": {
+    "minimum": 1,
+    "maximum": 776,
+    "mean": 14.268349662685642
+  },
+  "top_cwes": [
+    [
+      "CWE-Other",
+      5136
+    ],
+    [
+      "CWE-264",
+      3167
+    ],
+    [
+      "CWE-79",
+      2960
+    ],
+    [
+      "CWE-863",
+      2341
+    ],
+    [
+      "CWE-862",
+      2200
+    ],
+    [
+      "CWE-20",
+      2197
+    ],
+    [
+      "CWE-22",
+      2078
+    ],
+    [
+      "CWE-611",
+      1999
+    ],
+    [
+      "CWE-89",
+      1897
+    ],
+    [
+      "CWE-668",
+      1874
+    ],
+    [
+      "CWE-200",
+      1586
+    ],
+    [
+      "CWE-502",
+      1466
+    ],
+    [
+      "CWE-400",
+      1437
+    ],
+    [
+      "CWE-284",
+      1200
+    ],
+    [
+      "CWE-787",
+      1081
+    ],
+    [
+      "CWE-74",
+      589
+    ],
+    [
+      "CWE-119",
+      527
+    ],
+    [
+      "CWE-770",
+      515
+    ],
+    [
+      "CWE-362",
+      475
+    ],
+    [
+      "CWE-94",
+      445
+    ]
+  ],
+  "graph_parse_error_sample": []
+}
