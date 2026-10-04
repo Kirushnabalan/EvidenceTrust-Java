@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Ruff / test / Python caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Raw datasets
+dataset/raw/
+
+# Temporary GPU transfer/package
+gpu_package/
+
+# Large model/checkpoint files
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Archives
+*.zip
+
+# Semantic development/smoke outputs
+outputs/semantic/smoke_test/
+outputs/semantic/smoke_v2/
+outputs/semantic/smoke_v3/
+outputs/semantic/medium_128/
+outputs/semantic/frozen_medium_128/
+
+# Temporary files
+*.tmp
+*.log
