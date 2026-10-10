@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+
+# Python / lint / test caches
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+ 
+# IDE / OS
+ 
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+ 
+# Raw datasets
+ 
+dataset/raw/
+
+ 
+# Temporary GPU / transfer packages
+ 
+gpu_package/
+
+ 
+# Large ML model files
+ 
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+ 
+# Archives / temporary files
+ 
+*.zip
+*.tar
+*.tar.gz
+*.tmp
+*.log
+
+ 
+# Old / smoke experiment outputs
+ 
+outputs/semantic/smoke_test/
+outputs/semantic/smoke_v2/
+outputs/semantic/smoke_v3/
+outputs/semantic/medium_128/
+outputs/semantic/frozen_medium_128/
+
+ 
+# Keep useful small experiment results
+ 
+# Do NOT ignore:
+# outputs/semantic/semantic_full_seed42/history.json
+# outputs/semantic/semantic_full_seed42/training_config.json
+# outputs/semantic/semantic_full_seed42/best_validation_metrics.json
+# outputs/semantic/semantic_full_seed42/validation_predictions.csv
+# outputs/semantic/semantic_full_seed42/threshold_analysis.csv
+# outputs/semantic/semantic_full_seed42/threshold_summary.json
+# tokenizer files
+# Generated structural audit detail
+outputs/structural/audit/graph_audit.csv

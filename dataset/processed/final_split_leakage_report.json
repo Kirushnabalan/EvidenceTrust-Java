@@ -1,0 +1,75 @@
+{
+  "seed": 42,
+  "model_name": "microsoft/codebert-base",
+  "semantic_preprocessing": {
+    "model_max_length": 512,
+    "special_tokens": 2,
+    "content_size": 510,
+    "overlap": 128,
+    "stride": 382,
+    "max_chunks": 4,
+    "visible_source_token_capacity": 1656,
+    "comments_removed": true
+  },
+  "grouping_rules": [
+    "same_cve",
+    "same_exact_selected_raw_code",
+    "same_exact_semantic_model_input"
+  ],
+  "diagnostics": {
+    "unique_cves": 775,
+    "unique_raw_code_hashes": 40700,
+    "unique_semantic_input_hashes": 40692,
+    "duplicate_semantic_input_hashes": 634,
+    "conflicting_label_semantic_hashes": 4,
+    "leakage_components": 705
+  },
+  "optimization_score": 0.06191464365657162,
+  "split_summary": {
+    "train": {
+      "records": 26620,
+      "vulnerable": 1714,
+      "non_vulnerable": 24906,
+      "components": 654,
+      "cves": 678,
+      "vulnerability_rate": 0.06438767843726521
+    },
+    "validation": {
+      "records": 8070,
+      "vulnerable": 358,
+      "non_vulnerable": 7712,
+      "components": 26,
+      "cves": 46,
+      "vulnerability_rate": 0.044361833952912016
+    },
+    "test": {
+      "records": 7259,
+      "vulnerable": 361,
+      "non_vulnerable": 6898,
+      "components": 25,
+      "cves": 51,
+      "vulnerability_rate": 0.04973136795701887
+    }
+  },
+  "pairwise_leakage": {
+    "train_vs_validation": {
+      "cve_overlap": 0,
+      "raw_code_hash_overlap": 0,
+      "semantic_input_hash_overlap": 0,
+      "component_overlap": 0
+    },
+    "train_vs_test": {
+      "cve_overlap": 0,
+      "raw_code_hash_overlap": 0,
+      "semantic_input_hash_overlap": 0,
+      "component_overlap": 0
+    },
+    "validation_vs_test": {
+      "cve_overlap": 0,
+      "raw_code_hash_overlap": 0,
+      "semantic_input_hash_overlap": 0,
+      "component_overlap": 0
+    }
+  },
+  "passed": true
+}
